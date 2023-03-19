@@ -1,0 +1,68 @@
+
+.BigFirstImage {
+    height:100vh;
+    background: url('images/test5.jpg');
+    background-size:cover;
+    position:relative;
+}
+.HomeLarge{
+    font-size: 4.0rem;
+}
+.HomeSmol{
+    font-size: 1.5rem;
+}
+.home-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(32, 4, 29);
+}
+.imageAboutPage {
+    width: 100%;
+}
+.skillsText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+  
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #dac508;
+}
+.fab {
+    color: #000000;
+}
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+#about, #skills, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+.skillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .skillsIcon {
+    color: #0e51cc;
+}
+.skillsText:hover {
+    border: 1px solid #0e51cc;
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
